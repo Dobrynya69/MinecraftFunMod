@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "volitionmod:volition_stone",
+    "volitionmod:godwood_log",
+    "volitionmod:godwood_wood",
+    "volitionmod:stripped_godwood_log",
+    "volitionmod:stripped_godwood_wood",
+    "volitionmod:godwood_leaves"
+  ]
+}

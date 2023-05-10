@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "volitionmod:stripped_godwood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "volitionmod:godwood_planks"
+  }
+}

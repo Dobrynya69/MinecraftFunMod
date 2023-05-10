@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "volitionmod:block/stripped_godwood_log",
+    "side": "volitionmod:block/stripped_godwood_log"
+  }
+}

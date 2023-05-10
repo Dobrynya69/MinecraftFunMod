@@ -1,5 +1,14 @@
 {
   "item.volitionmod.physically_volition": "Physically Volition",
+  "block.volitionmod.volition_stone": "Volition Stone",
+
+  "block.volitionmod.godwood_log": "Golden Dragon Log",
+  "block.volitionmod.godwood_wood": "Golden Dragon Wood",
+  "block.volitionmod.stripped_godwood_log": "Stripped Golden Dragon Log",
+  "block.volitionmod.stripped_godwood_wood": "Stripped Golden Dragon Wood",
+  "block.volitionmod.godwood_planks": "Golden Dragon Planks",
+  "block.volitionmod.godwood_leaves": "Golden Dragon Leaves",
+  "block.volitionmod.godwood_sapling": "Piece Of Golden Dragon",
 
   "itemGroup.volitionmod.volition": "Volition"
 }

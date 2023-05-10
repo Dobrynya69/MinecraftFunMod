@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "volitionmod:block/godwood_sapling"
+  }
+}

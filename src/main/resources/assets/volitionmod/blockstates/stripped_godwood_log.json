@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "volitionmod:block/stripped_godwood_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "volitionmod:block/stripped_godwood_log"
+    },
+    "axis=z": {
+      "model": "volitionmod:block/stripped_godwood_log_horizontal",
+      "x": 90
+    }
+  }
+}
