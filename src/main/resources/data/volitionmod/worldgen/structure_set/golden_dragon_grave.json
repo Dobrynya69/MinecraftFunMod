@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "volitionmod:golden_dragon_grave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+    "spacing": 30,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

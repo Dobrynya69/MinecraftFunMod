@@ -1,6 +1,7 @@
 package aspirin.volitionmod.block;
 
 import aspirin.volitionmod.VolitionMod;
+import aspirin.volitionmod.block.custom.VolitionExtractorBlock;
 import aspirin.volitionmod.item.ModItemGroup;
 import aspirin.volitionmod.world.feature.tree.GodwoodSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -31,6 +32,8 @@ public class ModBlocks {
     public static final Block GODWOOD_SAPLING = registerBlock("godwood_sapling",
             new SaplingBlock(new GodwoodSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.VOLITION);
+    public static final Block VOLITION_EXTRACTOR = registerBlock("volition_extractor",
+            new VolitionExtractorBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool().nonOpaque()), ModItemGroup.VOLITION);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

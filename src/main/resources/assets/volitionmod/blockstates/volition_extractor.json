@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "volitionmod:block/volition_extractor"
+    },
+    "facing=south": {
+      "model": "volitionmod:block/volition_extractor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "volitionmod:block/volition_extractor",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "volitionmod:block/volition_extractor",
+      "y": 90
+    }
+  }
+}

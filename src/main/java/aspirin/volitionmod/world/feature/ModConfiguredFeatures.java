@@ -34,11 +34,4 @@ public class ModConfiguredFeatures {
         VolitionMod.LOGGER.debug("Registering the ModConfiguredFeatures. Mod - " + VolitionMod.MOD_ID);
     }
 
-    public static final RegistryEntry<PlacedFeature> GODWOOD_CHECKED = PlacedFeatures.register("godwood_checked",
-            ModConfiguredFeatures.GODWOOD_TREE, List.of(PlacedFeatures.wouldSurvive(ModBlocks.GODWOOD_SAPLING)));
-
-    public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> GODWOOD_SPAWN =
-            ConfiguredFeatures.register("godwood_spawn", Feature.RANDOM_SELECTOR,
-                    new RandomFeatureConfig(List.of(new RandomFeatureEntry(GODWOOD_CHECKED, 0.5f)),
-                            GODWOOD_CHECKED));
 }
