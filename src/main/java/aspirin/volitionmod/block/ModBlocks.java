@@ -33,7 +33,13 @@ public class ModBlocks {
             new SaplingBlock(new GodwoodSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.VOLITION);
     public static final Block VOLITION_EXTRACTOR = registerBlock("volition_extractor",
-            new VolitionExtractorBlock(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool().nonOpaque()), ModItemGroup.VOLITION);
+            new VolitionExtractorBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(6f)
+                    .requiresTool()
+                    .luminance(state -> state.get(VolitionExtractorBlock.REST) ? 0 : 5)
+                    .nonOpaque()),
+            ModItemGroup.VOLITION);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

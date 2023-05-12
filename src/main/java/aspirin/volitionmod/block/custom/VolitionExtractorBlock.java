@@ -10,6 +10,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.*;
@@ -22,6 +23,9 @@ import org.jetbrains.annotations.Nullable;
 
 public class VolitionExtractorBlock extends BlockWithEntity implements BlockEntityProvider{
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
+    public static final BooleanProperty NOT_FINISHED = BooleanProperty.of("not_finished");
+    public static final BooleanProperty REST = BooleanProperty.of("rest");
+
 
     public VolitionExtractorBlock(Settings settings) {
         super(settings);
@@ -52,6 +56,8 @@ public class VolitionExtractorBlock extends BlockWithEntity implements BlockEnti
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
+        builder.add(REST);
+        builder.add(NOT_FINISHED);
     }
 
     @Override

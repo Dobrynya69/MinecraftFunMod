@@ -10,7 +10,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static Item PHYSICALLY_VOLITION = registerItem("physically_volition",
             new Item(new FabricItemSettings().group(ModItemGroup.VOLITION)));
-
+    public static Item BIG_JAR = registerItem("big_jar",
+            new Item(new FabricItemSettings().group(ModItemGroup.VOLITION)));
+    public static Item VOLITION_EXTRACT = registerItem("volition_extract",
+            new Item(new FabricItemSettings().group(ModItemGroup.VOLITION)));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(VolitionMod.MOD_ID, name), item);
     }

@@ -1,18 +1,67 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "volitionmod:block/volition_extractor"
+    "facing=north,rest=true,not_finished=true": {
+        "model": "volitionmod:block/volition_extractor"
     },
-    "facing=south": {
+    "facing=north,rest=false,not_finished=true": {
+      "model": "volitionmod:block/volition_extractor_work"
+    },
+    "facing=north,rest=true,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished"
+    },
+    "facing=north,rest=false,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished"
+    },
+
+
+    "facing=south,rest=true,not_finished=true": {
       "model": "volitionmod:block/volition_extractor",
       "y": 180
     },
-    "facing=west": {
+    "facing=south,rest=false,not_finished=true": {
+      "model": "volitionmod:block/volition_extractor_work",
+      "y": 180
+    },
+    "facing=south,rest=true,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
+      "y": 180
+    },
+    "facing=south,rest=false,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
+      "y": 180
+    },
+
+    "facing=west,rest=true,not_finished=true": {
       "model": "volitionmod:block/volition_extractor",
       "y": 270
     },
-    "facing=east": {
+    "facing=west,rest=false,not_finished=true": {
+      "model": "volitionmod:block/volition_extractor_work",
+      "y": 270
+    },
+    "facing=west,rest=true,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
+      "y": 270
+    },
+    "facing=west,rest=false,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
+      "y": 270
+    },
+
+    "facing=east,rest=true,not_finished=true": {
       "model": "volitionmod:block/volition_extractor",
+      "y": 90
+    },
+    "facing=east,rest=false,not_finished=true": {
+      "model": "volitionmod:block/volition_extractor_work",
+      "y": 90
+    },
+    "facing=east,rest=true,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
+      "y": 90
+    },
+    "facing=east,rest=false,not_finished=false": {
+      "model": "volitionmod:block/volition_extractor_finished",
       "y": 90
     }
   }

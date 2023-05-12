@@ -11,5 +11,8 @@
   "block.volitionmod.godwood_leaves": "Golden Dragon Leaves",
   "block.volitionmod.godwood_sapling": "Piece Of Golden Dragon",
 
+  "item.volitionmod.big_jar": "Big Jar",
+  "item.volitionmod.volition_extract": "Volition Extract",
+
   "itemGroup.volitionmod.volition": "Volition"
 }
