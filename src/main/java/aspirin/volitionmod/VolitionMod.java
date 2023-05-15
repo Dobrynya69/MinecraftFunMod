@@ -4,6 +4,7 @@ import aspirin.volitionmod.block.ModBlocks;
 import aspirin.volitionmod.block.entity.ModBlockEntities;
 import aspirin.volitionmod.entity.ModEntities;
 import aspirin.volitionmod.entity.custom.GhostCarpEntity;
+import aspirin.volitionmod.entity.custom.PonaturiEntity;
 import aspirin.volitionmod.item.ModItems;
 import aspirin.volitionmod.screen.ModScreenHandlers;
 import aspirin.volitionmod.util.ModStrippableBlocks;
@@ -38,5 +39,6 @@ public class VolitionMod implements ModInitializer {
 
         GeckoLib.initialize();
         FabricDefaultAttributeRegistry.register(ModEntities.GHOST_CARP, GhostCarpEntity.setAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.PONATURI, PonaturiEntity.setAttributes());
     }
 }

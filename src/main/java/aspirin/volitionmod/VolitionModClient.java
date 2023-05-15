@@ -3,6 +3,7 @@ package aspirin.volitionmod;
 import aspirin.volitionmod.block.ModBlocks;
 import aspirin.volitionmod.entity.ModEntities;
 import aspirin.volitionmod.entity.client.GhostCarpRenderer;
+import aspirin.volitionmod.entity.client.PonaturiRenderer;
 import aspirin.volitionmod.item.ModItems;
 import aspirin.volitionmod.screen.ModScreenHandlers;
 import aspirin.volitionmod.screen.VolitionExtractorScreen;
@@ -20,5 +21,6 @@ public class VolitionModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.VOLITION_EXTRACTOR, RenderLayer.getTranslucent());
 
         EntityRendererRegistry.register(ModEntities.GHOST_CARP, GhostCarpRenderer::new);
+        EntityRendererRegistry.register(ModEntities.PONATURI, PonaturiRenderer::new);
     }
 }
